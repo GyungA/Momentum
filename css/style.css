@@ -30,4 +30,7 @@ body {
   color: white;
   align-items: center;
   justify-content: center;
+  /* blur background */
+  background-color: rgba(0, 0, 0, 0.7);
+  background-blend-mode: soft-light;
 }
