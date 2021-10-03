@@ -1,0 +1,14 @@
+#todo-list button {
+  background: none;
+  border: 0;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+#todo-list span {
+  cursor: default;
+}
+
+ul {
+  list-style: none;
+}

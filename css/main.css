@@ -1,0 +1,52 @@
+.hidden {
+  display: none;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+body,
+html {
+  overflow: visible;
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: "Open Sans", sans-serif;
+  table-layout: fixed;
+}
+
+body {
+  display: grid;
+  background-size: 100% 100%;
+  opacity: 0;
+  animation: fadeIn 1s ease-in-out forwards;
+  animation-delay: 0.5s;
+  color: white;
+  align-items: center;
+  justify-content: center;
+  /* blur background */
+  background-color: rgba(0, 0, 0, 0.7);
+  background-blend-mode: soft-light;
+}
+
+input,
+#logOut {
+  background: none;
+  appearance: none;
+  border: 0;
+  font-size: 18px;
+  color: white;
+  border-bottom: 1px solid white;
+}
+
+#logIn,
+#logOut {
+  border-bottom: solid 1px #d2691e;
+}

@@ -1,44 +1,31 @@
 const quotes = [
     {
-      quote: "The way to get started is to quit talking and begin doing.",
-      author: "Walt Disney",
-    },
-    {
-      quote: "Life is what happens when you're busy making other plans.",
-      author: "John Lennon",
-    },
-    {
-      quote:
-        "The world is a book and those who do not travel read only one page.",
-      author: "Saint Augustine",
-    },
-    {
-      quote: "Life is either a daring adventure or nothing at all.",
-      author: "Helen Keller",
-    },
-    {
-      quote: "To Travel is to Live",
-      author: "Hans Christian Andersen",
-    },
-    {
-      quote: "Only a life lived for others is a life worthwhile.",
-      author: "Albert Einstein",
+      quote: "A successful individual typically sets his next goal somewhat but not too much above his last achievement.",
+      author: "Kurt Lewin",
     },
     {
       quote: "You only live once, but if you do it right, once is enough.",
       author: "Mae West",
     },
     {
-      quote: "Never go on trips with anyone you donot love.",
-      author: "Hemmingway",
+      quote: "When I am attacked by gloomy thoughts, nothing helps me so much as running to my books.",
+      author: "Michel de Montaigne",
     },
     {
-      quote: "We wander for distraction, but we travel for fulfilment.",
-      author: "Hilaire Belloc",
+      quote: "If you would win a man to your cause, first convince him that you are his sincere friend.",
+      author: "Abraham Lincoln",
     },
     {
-      quote: "Travel expands the mind and fills the gap.",
-      author: "Sheda Savage",
+      quote: "If you make it plain you like people, it's hard for them to resist liking you back.",
+      author: "Lois McMaster Bujold",
+    },
+    {
+      quote: "Regret for wasted time is more wasted time.",
+      author: "Mason Cooley",
+    },
+    {
+      quote: "Doing a thing well is often a waste of time.",
+      author: "Robert Byrne",
     },
   ];
 
